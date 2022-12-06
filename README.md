@@ -40,7 +40,7 @@
 
 ### Тема 2
 #### 2.1.covid_data_web_spider.py
-Мы получаем все данные об эпидемии за день на веб-сайте epidemic real-time big data report и сохраняем данные в формате json в txt-файл.
+Мы получаем все данные об эпидемии за день на веб-сайте epidemic real-time big data report(https://voice.baidu.com/act/newpneumonia/newpneumonia) и сохраняем данные в формате json в txt-файл.
 
 #### 2.2.web spider data txt to excel.py
 просматриваем файл txt, сохраненный в файле, выбираем часть данных, которую мы хотим проанализировать, и сохраняем ее в соответствующем excel.
