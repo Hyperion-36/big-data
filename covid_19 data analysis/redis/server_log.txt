@@ -1,0 +1,389 @@
+[2644] 08 Nov 16:30:21.780 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[2644] 08 Nov 16:30:21.780 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=2644, just started
+[2644] 08 Nov 16:30:21.780 # Configuration loaded
+[4488] 08 Nov 16:30:21.780 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[4488] 08 Nov 16:30:21.780 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=4488, just started
+[4488] 08 Nov 16:30:21.780 # Configuration loaded
+[4488] 08 Nov 16:30:21.780 # Could not create server TCP listening socket 127.0.0.1:6379: bind: 存储控制块地址无效。
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.14.1 (ec77f72d/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 2644
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[2644] 08 Nov 16:30:21.780 # Server initialized
+[2644] 08 Nov 16:30:21.780 * DB loaded from disk: 0.000 seconds
+[2644] 08 Nov 16:30:21.780 * Ready to accept connections
+[5464] 08 Nov 18:14:59.939 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5464] 08 Nov 18:14:59.940 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5464, just started
+[5464] 08 Nov 18:14:59.940 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.14.1 (ec77f72d/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 5464
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[5464] 08 Nov 18:14:59.956 # Server initialized
+[5464] 08 Nov 18:14:59.964 * DB loaded from disk: 0.001 seconds
+[5464] 08 Nov 18:14:59.964 * Ready to accept connections
+[5652] 08 Nov 18:14:59.964 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5652] 08 Nov 18:14:59.964 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5652, just started
+[5652] 08 Nov 18:14:59.964 # Configuration loaded
+[5652] 08 Nov 18:14:59.972 # Could not create server TCP listening socket 127.0.0.1:6379: bind: 存储控制块地址无效。
+[4232] 09 Nov 15:04:35.603 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[4232] 09 Nov 15:04:35.603 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=4232, just started
+[4232] 09 Nov 15:04:35.603 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.14.1 (ec77f72d/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 4232
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[4232] 09 Nov 15:04:35.603 # Server initialized
+[4232] 09 Nov 15:04:35.603 * DB loaded from disk: 0.000 seconds
+[4232] 09 Nov 15:04:35.603 * Ready to accept connections
+[4340] 09 Nov 15:04:35.603 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[4340] 09 Nov 15:04:35.603 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=4340, just started
+[4340] 09 Nov 15:04:35.603 # Configuration loaded
+[4340] 09 Nov 15:04:35.618 # Could not create server TCP listening socket 127.0.0.1:6379: bind: 存储控制块地址无效。
+[4232] 09 Nov 18:31:20.671 * 1 changes in 900 seconds. Saving...
+[4232] 09 Nov 18:31:20.688 * Background saving started by pid 23448
+[4232] 09 Nov 18:31:20.788 # fork operation complete
+[4232] 09 Nov 18:31:20.804 * Background saving terminated with success
+[4232] 09 Nov 18:32:21.051 * 10000 changes in 60 seconds. Saving...
+[4232] 09 Nov 18:32:21.074 * Background saving started by pid 8964
+[4232] 09 Nov 18:32:21.181 # fork operation complete
+[4232] 09 Nov 18:32:21.196 * Background saving terminated with success
+[4232] 09 Nov 18:48:55.994 * 1 changes in 900 seconds. Saving...
+[4232] 09 Nov 18:48:56.015 * Background saving started by pid 23488
+[4232] 09 Nov 18:48:56.115 # fork operation complete
+[4232] 09 Nov 18:48:56.118 * Background saving terminated with success
+[4232] 09 Nov 18:49:57.070 * 10000 changes in 60 seconds. Saving...
+[4232] 09 Nov 18:49:57.087 * Background saving started by pid 5236
+[4232] 09 Nov 18:49:57.196 # fork operation complete
+[4232] 09 Nov 18:49:57.215 * Background saving terminated with success
+[4232] 09 Nov 18:50:58.061 * 10000 changes in 60 seconds. Saving...
+[4232] 09 Nov 18:50:58.087 * Background saving started by pid 19732
+[4232] 09 Nov 18:50:58.201 # fork operation complete
+[4232] 09 Nov 18:50:58.225 * Background saving terminated with success
+[4232] 09 Nov 18:54:30.657 * 10000 changes in 60 seconds. Saving...
+[4232] 09 Nov 18:54:30.674 * Background saving started by pid 21392
+[4232] 09 Nov 18:54:30.774 # fork operation complete
+[4232] 09 Nov 18:54:30.788 * Background saving terminated with success
+[4232] 09 Nov 18:59:31.000 * 10 changes in 300 seconds. Saving...
+[4232] 09 Nov 18:59:31.019 * Background saving started by pid 11004
+[4232] 09 Nov 18:59:31.133 # fork operation complete
+[4232] 09 Nov 18:59:31.135 * Background saving terminated with success
+[4232] 09 Nov 19:04:42.294 * 10 changes in 300 seconds. Saving...
+[4232] 09 Nov 19:04:42.326 * Background saving started by pid 21364
+[4232] 09 Nov 19:04:42.439 # fork operation complete
+[4232] 09 Nov 19:04:42.450 * Background saving terminated with success
+[4232] 09 Nov 19:06:37.946 * DB saved on disk
+[4232] 09 Nov 19:11:38.059 * 10 changes in 300 seconds. Saving...
+[4232] 09 Nov 19:11:38.079 * Background saving started by pid 13916
+[4232] 09 Nov 19:11:38.184 # fork operation complete
+[4232] 09 Nov 19:11:38.199 * Background saving terminated with success
+[4232] 09 Nov 19:18:36.792 * 10 changes in 300 seconds. Saving...
+[4232] 09 Nov 19:18:36.807 * Background saving started by pid 752
+[4232] 09 Nov 19:18:36.907 # fork operation complete
+[4232] 09 Nov 19:18:36.917 * Background saving terminated with success
+[4232] 09 Nov 19:19:37.041 * 10000 changes in 60 seconds. Saving...
+[4232] 09 Nov 19:19:37.061 * Background saving started by pid 22596
+[4232] 09 Nov 19:19:37.163 # fork operation complete
+[4232] 09 Nov 19:19:37.163 * Background saving terminated with success
+[4232] 09 Nov 20:26:49.376 * 1 changes in 900 seconds. Saving...
+[4232] 09 Nov 20:26:49.395 * Background saving started by pid 13952
+[4232] 09 Nov 20:26:49.519 # fork operation complete
+[4232] 09 Nov 20:26:49.519 * Background saving terminated with success
+[4232] 09 Nov 20:31:50.047 * 10 changes in 300 seconds. Saving...
+[4232] 09 Nov 20:31:50.070 * Background saving started by pid 21148
+[4232] 09 Nov 20:31:50.174 # fork operation complete
+[4232] 09 Nov 20:31:50.193 * Background saving terminated with success
+[4232] 09 Nov 20:55:19.989 * DB saved on disk
+[4232] 09 Nov 21:00:20.009 * 10 changes in 300 seconds. Saving...
+[4232] 09 Nov 21:00:20.029 * Background saving started by pid 8912
+[4232] 09 Nov 21:00:20.132 # fork operation complete
+[4232] 09 Nov 21:00:20.149 * Background saving terminated with success
+[4232] 09 Nov 21:03:16.969 * 10000 changes in 60 seconds. Saving...
+[4232] 09 Nov 21:03:16.985 * Background saving started by pid 4944
+[4232] 09 Nov 21:03:17.084 # fork operation complete
+[4232] 09 Nov 21:03:17.095 * Background saving terminated with success
+[4232] 09 Nov 21:08:18.041 * 10 changes in 300 seconds. Saving...
+[4232] 09 Nov 21:08:18.065 * Background saving started by pid 20832
+[4232] 09 Nov 21:08:18.174 # fork operation complete
+[4232] 09 Nov 21:08:18.187 * Background saving terminated with success
+[4232] 09 Nov 21:22:12.116 * DB saved on disk
+[4232] 09 Nov 21:23:16.418 * 10000 changes in 60 seconds. Saving...
+[4232] 09 Nov 21:23:16.432 * Background saving started by pid 728
+[4232] 09 Nov 21:23:16.533 # fork operation complete
+[4232] 09 Nov 21:23:16.546 * Background saving terminated with success
+[4232] 09 Nov 21:24:18.795 * DB saved on disk
+[4232] 09 Nov 21:25:19.048 * 10000 changes in 60 seconds. Saving...
+[4232] 09 Nov 21:25:19.066 * Background saving started by pid 23100
+[4232] 09 Nov 21:25:19.171 # fork operation complete
+[4232] 09 Nov 21:25:19.186 * Background saving terminated with success
+[5904] 13 Nov 11:07:52.541 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5904] 13 Nov 11:07:52.541 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5904, just started
+[5904] 13 Nov 11:07:52.556 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.14.1 (ec77f72d/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 5904
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[5904] 13 Nov 11:07:52.557 # Server initialized
+[5912] 13 Nov 11:07:52.557 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5912] 13 Nov 11:07:52.557 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5912, just started
+[5912] 13 Nov 11:07:52.557 # Configuration loaded
+[5912] 13 Nov 11:07:52.557 # Could not create server TCP listening socket 127.0.0.1:6379: bind: 存储控制块地址无效。
+[5904] 13 Nov 11:07:52.557 * DB loaded from disk: 0.006 seconds
+[5904] 13 Nov 11:07:52.557 * Ready to accept connections
+[5608] 19 Nov 14:38:47.824 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5608] 19 Nov 14:38:47.824 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5608, just started
+[5608] 19 Nov 14:38:47.824 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.14.1 (ec77f72d/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 5608
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[5608] 19 Nov 14:38:47.824 # Server initialized
+[5616] 19 Nov 14:38:47.824 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5608] 19 Nov 14:38:47.824 * DB loaded from disk: 0.004 seconds
+[5616] 19 Nov 14:38:47.840 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5616, just started
+[5608] 19 Nov 14:38:47.840 * Ready to accept connections
+[5616] 19 Nov 14:38:47.840 # Configuration loaded
+[5616] 19 Nov 14:38:47.840 # Could not create server TCP listening socket 127.0.0.1:6379: bind: 存储控制块地址无效。
+[5608] 19 Nov 16:52:13.657 * DB saved on disk
+[5608] 19 Nov 16:53:14.096 * 10000 changes in 60 seconds. Saving...
+[5608] 19 Nov 16:53:14.115 * Background saving started by pid 23392
+[5608] 19 Nov 16:53:14.220 # fork operation complete
+[5608] 19 Nov 16:53:14.241 * Background saving terminated with success
+[5736] 19 Nov 20:19:17.943 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5736] 19 Nov 20:19:17.943 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5736, just started
+[5736] 19 Nov 20:19:17.943 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.14.1 (ec77f72d/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 5736
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[5736] 19 Nov 20:19:17.943 # Server initialized
+[5736] 19 Nov 20:19:17.958 * DB loaded from disk: 0.006 seconds
+[5736] 19 Nov 20:19:17.958 * Ready to accept connections
+[5756] 19 Nov 20:19:17.958 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5756] 19 Nov 20:19:17.958 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5756, just started
+[5756] 19 Nov 20:19:17.958 # Configuration loaded
+[5756] 19 Nov 20:19:17.958 # Could not create server TCP listening socket 127.0.0.1:6379: bind: 存储控制块地址无效。
+[5720] 21 Nov 21:52:04.695 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5616] 21 Nov 21:52:04.695 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5616] 21 Nov 21:52:04.695 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5616, just started
+[5616] 21 Nov 21:52:04.695 # Configuration loaded
+[5720] 21 Nov 21:52:04.711 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5720, just started
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.14.1 (ec77f72d/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 5616
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[5616] 21 Nov 21:52:04.711 # Server initialized
+[5720] 21 Nov 21:52:04.711 # Configuration loaded
+[5616] 21 Nov 21:52:04.711 * DB loaded from disk: 0.005 seconds
+[5616] 21 Nov 21:52:04.711 * Ready to accept connections
+[5720] 21 Nov 21:52:04.711 # Could not create server TCP listening socket 127.0.0.1:6379: bind: 存储控制块地址无效。
+[5532] 26 Nov 19:04:04.445 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5532] 26 Nov 19:04:04.445 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5532, just started
+[5532] 26 Nov 19:04:04.461 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.14.1 (ec77f72d/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 5532
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[5532] 26 Nov 19:04:04.461 # Server initialized
+[5532] 26 Nov 19:04:04.461 * DB loaded from disk: 0.000 seconds
+[5532] 26 Nov 19:04:04.461 * Ready to accept connections
+[5560] 26 Nov 19:04:04.461 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5560] 26 Nov 19:04:04.461 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5560, just started
+[5560] 26 Nov 19:04:04.461 # Configuration loaded
+[5560] 26 Nov 19:04:04.461 # Could not create server TCP listening socket 127.0.0.1:6379: bind: 存储控制块地址无效。
+[5244] 02 Dec 14:22:20.000 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5244] 02 Dec 14:22:20.000 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5244, just started
+[5244] 02 Dec 14:22:20.000 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.14.1 (ec77f72d/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 5244
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[5244] 02 Dec 14:22:20.016 # Server initialized
+[5216] 02 Dec 14:22:20.031 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5216] 02 Dec 14:22:20.031 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5216, just started
+[5216] 02 Dec 14:22:20.031 # Configuration loaded
+[5244] 02 Dec 14:22:20.031 * DB loaded from disk: 0.015 seconds
+[5244] 02 Dec 14:22:20.031 * Ready to accept connections
+[5216] 02 Dec 14:22:20.031 # Could not create server TCP listening socket 127.0.0.1:6379: bind: 存储控制块地址无效。
+[5452] 04 Dec 12:20:14.184 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5452] 04 Dec 12:20:14.189 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5452, just started
+[5452] 04 Dec 12:20:14.189 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.14.1 (ec77f72d/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 5452
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[5452] 04 Dec 12:20:14.189 # Server initialized
+[5452] 04 Dec 12:20:14.202 * DB loaded from disk: 0.015 seconds
+[5452] 04 Dec 12:20:14.202 * Ready to accept connections
+[5624] 04 Dec 12:20:14.218 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5624] 04 Dec 12:20:14.218 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5624, just started
+[5624] 04 Dec 12:20:14.218 # Configuration loaded
+[5624] 04 Dec 12:20:14.233 # Could not create server TCP listening socket 127.0.0.1:6379: bind: 存储控制块地址无效。
+[5852] 04 Dec 13:02:48.104 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5852] 04 Dec 13:02:48.104 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5852, just started
+[5852] 04 Dec 13:02:48.104 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.14.1 (ec77f72d/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 5852
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[5852] 04 Dec 13:02:48.104 # Server initialized
+[5852] 04 Dec 13:02:48.118 * DB loaded from disk: 0.004 seconds
+[5852] 04 Dec 13:02:48.118 * Ready to accept connections
+[5868] 04 Dec 13:02:48.136 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5868] 04 Dec 13:02:48.136 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5868, just started
+[5868] 04 Dec 13:02:48.136 # Configuration loaded
+[5868] 04 Dec 13:02:48.136 # Could not create server TCP listening socket 127.0.0.1:6379: bind: 存储控制块地址无效。
