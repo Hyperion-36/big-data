@@ -28,16 +28,12 @@ def encoding_conversion(content):
 def loads_str(data_str):
     try:
         result = json.loads(data_str)
-        print("最终json加载结果：{}".format(result))
         return result
     except Exception as e:
-        print("异常信息e：{}".format(e))
         error_index = re.findall(r"char (\d+)\)", str(e))
         if error_index:
             error_str = data_str[int(error_index[0])]
             data_str = data_str.replace(error_str, "<?>")
-            print("替换异常字符串{} 后的文本内容{}".format(error_str, data_str))
-            # 该处将处理结果继续递归处理
             return loads_str(data_str)
 
 
