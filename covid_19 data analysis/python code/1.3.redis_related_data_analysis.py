@@ -398,11 +398,14 @@ if __name__ == '__main__':
     # (важные данные-необходимо использовать при анализе других данных, чтобы облегчить сравнение с данными об эпидемии)
     district_name_arrange_list = list((district_diagnosis_data_arrange['district_name']))
     # Отображение данных в виде гистограммы
+    time_start = time.time()
     histogram_visualization(district_diagnosis_data_arrange['district_name'],
                             district_diagnosis_data_arrange['diagnosis_data'],
                             "district analysis 1.compare 16 districts.png", 'Количество подтвержденных случаев',
                             "Анализ эпидемической ситуации в различных регионах с февраля по июнь",
                             "Название района", 'visulation_result\\district_data\\')
+    time_end = time.time()
+    print(str(time_end - time_start))
 
     # анализ данные 2.2 Площадь земель, постоянное население и плотность населения каждого района (2020 год)
     # Сбор и инициализация данных
@@ -444,44 +447,59 @@ if __name__ == '__main__':
                                foreign_population_22_list_final[population_number])
         whole_population_22_list_final.append(whole_population_22)
     # Визуализация постоянного населения каждого района 各区常住人口可视化
+    time_start = time.time()
     histogram_visualization(district_name_arrange_list,
                             permanent_population_22_list_final,
                             "district analysis 2.compare 16 districts permanent population.png",
                             'Население (единица измерения: 10000 человек)',
                             "Постоянное население каждого района",
                             "Название района", 'visulation_result\\district_data\\')
+    time_end = time.time()
+    print(str(time_end - time_start))
 
     # Визуализация иностранного населения в каждом районе 各区外来人口可视化
+    time_start = time.time()
     histogram_visualization(district_name_arrange_list,
                             foreign_population_22_list_final,
                             "district analysis 3.compare 16 districts foreign population.png",
                             'Население (единица измерения: 10000 человек)',
                             "Иностранное население каждого района",
                             "Название района", 'visulation_result\\district_data\\')
+    time_end = time.time()
+    print(str(time_end - time_start))
 
     # Визуализация общей численности населения 总人口可视化
+    time_start = time.time()
     histogram_visualization(district_name_arrange_list,
                             whole_population_22_list_final,
                             "district analysis 4.compare 16 districts whole population.png",
                             'Население (единица измерения: 10000 человек)',
                             "Общая численность населения каждого района",
                             "Название района", 'visulation_result\\district_data\\')
+    time_end = time.time()
+    print(str(time_end - time_start))
 
     # Визуализация плотности населения в каждом районе 各区人口密度可视化
+    time_start = time.time()
     histogram_visualization(district_name_arrange_list,
                             density_population_22_list_final,
                             "district analysis 5.compare 16 districts density population.png",
                             'Плотность населения (чел./квадратный километр)',
                             "Плотность населения каждого района",
                             "Название района", 'visulation_result\\district_data\\')
+    time_end = time.time()
+    print(str(time_end - time_start))
 
     # Площадь земельного участка каждого района 各区土地面积
+    time_start = time.time()
     histogram_visualization(district_name_arrange_list,
                             land_area_22_list_final,
                             "district analysis 6.compare 16 districts land area.png",
                             '',
                             "Площадь земельного участка каждого района",
                             "Название района", 'visulation_result\\district_data\\')
+    time_end = time.time()
+    print(str(time_end - time_start))
     # print(district_22_dataframe)
 
     # анализ данные 2.6 Возрастной состав зарегистрированного населения каждого района (2020 год)
@@ -514,6 +532,7 @@ if __name__ == '__main__':
      age_60_26_list_final, number_26_list_final) = (list_final_26[0], list_final_26[1], list_final_26[2],
                                                     list_final_26[3], list_final_26[4], list_final_26[5],)
     # 各区常住人口可视化
+    time_start = time.time()
     histogram_visualization(district_name_arrange_list,
                             whole_population_26_list_final,
                             "district analysis 7.compare 16 districts whole population"
@@ -521,6 +540,8 @@ if __name__ == '__main__':
                             'Население (единица измерения: 10000 человек)',
                             "Общая численность населения каждого района(2020 год(более 17 лет))",
                             "Название района", 'visulation_result\\district_data\\')
+    time_end = time.time()
+    print(str(time_end - time_start))
 
     # 图像绘制
     fig, ax = plt.subplots()
@@ -587,12 +608,15 @@ if __name__ == '__main__':
      ) = (list_final_212[0], list_final_212[1], list_final_212[2],
           list_final_212[3], list_final_212[4], list_final_212[5], list_final_212[6])
     # 各区常住人口可视化
+    time_start = time.time()
     histogram_visualization(district_name_arrange_list,
                             whole_population_212_list_final,
                             "district analysis 9.compare 16 districts seventh Census whole population(table 2.12).png",
                             'Население (единица измерения: 10000 человек)',
                             "Общая численность населения каждого района(Седьмая перепись)",
                             "Название района", 'visulation_result\\district_data\\')
+    time_end = time.time()
+    print(str(time_end - time_start))
 
     # 图像绘制
     fig, ax = plt.subplots()
@@ -652,15 +676,21 @@ if __name__ == '__main__':
     gdp_list_final = list(float(i) for i in district_28_dataframe['gdp_list'])
     gdp_increase_list_final = list(float(i) for i in district_28_dataframe['gdp_increase_list'])
     # 各区常住人口可视化
+    time_start = time.time()
     histogram_visualization(district_name_arrange_list,
                             gdp_list_final,
                             "district analysis 11.compare 16 districts GDP.png",
                             'Валовой региональный продукт (млрд юаней)',
                             "Валовой продукт каждого района",
                             "Название района", 'visulation_result\\district_data\\')
+    time_end = time.time()
+    print(str(time_end - time_start))
 
+    time_start = time.time()
     histogram_visualization(district_name_arrange_list,
                             gdp_increase_list_final,
                             "district analysis 12.compare 16 districts GDP increase.png", '',
                             "Темпы роста ВВП каждого района по сравнению с предыдущим годом(%)",
                             "Название района", 'visulation_result\\district_data\\')
+    time_end = time.time()
+    print(str(time_end - time_start))
