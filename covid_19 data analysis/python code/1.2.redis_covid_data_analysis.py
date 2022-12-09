@@ -375,17 +375,23 @@ if __name__ == '__main__':
     # visualization of province data
     # visualization of shanghai data
     # get data
+    time_start = time.time()
     shanghai_covid19_data = get_all_db_data(6379, 2)
     # shanghai data visualization
     province_visualization(shanghai_covid19_data, 'shanghai',
                            'visulation_result\\covid19_whole_data\\province_data\\1.shanghai\\')
+    time_end = time.time()
+    print('1.shanghai' + str(time_end - time_start))
 
     # visualization of jiangsu data
     # get data
+    time_start = time.time()
     jiangsu_covid19_data = get_all_db_data(6379, 1)
     # jiangsu data visualization
     province_visualization(jiangsu_covid19_data, 'jiangsu',
                            'visulation_result\\covid19_whole_data\\province_data\\2.jiangsu\\')
+    time_end = time.time()
+    print('2.jiangsu' + str(time_end - time_start))
 
     # visualization of zhejiang data
     # get data
@@ -393,6 +399,8 @@ if __name__ == '__main__':
     # zhejiang data visualization
     province_visualization(zhejiang_covid19_data, 'zhejiang',
                            'visulation_result\\covid19_whole_data\\province_data\\3.zhejiang\\')
+    time_end = time.time()
+    print('3.zhejiang' + str(time_end - time_start))
 
     # visualization of 16 districts covid19 data
     # data file position
@@ -407,6 +415,7 @@ if __name__ == '__main__':
             district_name = name_list[i][:-5]
         else:
             district_name = name_list[i][:-4]
+        time_start = time.time()
         district_covid19_data = get_all_db_data(6380, i)
         # # visualization of 16 districts covid19 the whole data
         # district_visualization(district_covid19_data, district_name, str(i))
@@ -414,7 +423,8 @@ if __name__ == '__main__':
         district_visualization(district_covid19_data, district_name, str(i),
                                'visulation_result\\covid19_whole_data\\district_data\\' +
                                str(i+1) + '.' + district_name + '\\')
-
+        time_end = time.time()
+        print(district_name + str(time_end - time_start))
         all_district_name.append(district_name)
         all_date_data.append(district_covid19_data['时间'])
         all_newly_diagnosed_data.append(district_covid19_data['本土新增'])
