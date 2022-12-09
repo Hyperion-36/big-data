@@ -7,6 +7,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import redis
+import time
 import ast
 import os
 
@@ -285,10 +286,17 @@ def port_data_visualization(db_number, port):
 
 
 if __name__ == '__main__':
+    time_start = time.time()
     print('start visualization')
-    port_data_visualization(16, 6381)
-    port_data_visualization(16, 6382)
-    port_data_visualization(2, 6383)
+    visualization_number_6381 = port_data_visualization(16, 6381)
+    visualization_number_6382 = port_data_visualization(16, 6382)
+    visualization_number_6383 = port_data_visualization(2, 6383)
+    print("Общее количество визуализаций:" + str(visualization_number_6381)
+          + str(visualization_number_6382)
+          + str(visualization_number_6383)
+          )
+    time_end = time.time()
+    print(time_end - time_start)
 
     # for db_number in range(16):
     #     r = rd = redis.Redis(host='127.0.0.1', port=6381, db=db_number, decode_responses=True)
