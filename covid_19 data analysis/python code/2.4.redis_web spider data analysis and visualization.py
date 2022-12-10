@@ -1,9 +1,3 @@
-"""
-Визуализация данных.
-Мы считываем и визуализируем эпидемические данные по всем провинциям и городам, хранящиеся в базе данных.
-Получите все данные о провинции или городе из базы данных, прочитайте ежедневные данные и нарисуйте картинку.
-И сохраните их локально.
-"""
 import matplotlib.pyplot as plt
 import pandas as pd
 import redis
@@ -238,14 +232,17 @@ def port_data_visualization(db_number, port):
                      (В Китае насчитывается 34 провинции или муниципалитета,
                      непосредственно подчиняющиеся центральному правительству)
     :param port: Порт базы данных, который необходимо подключить
+    :return visualization_number: Статистика была визуализирована несколько раз
     """
+    visualization_number = 0
     for db in range(db_number):
         r = redis.Redis(host='127.0.0.1', port=port, db=db, decode_responses=True)
         keys = r.keys()
         print(keys)
-        i = 0
+        # i = 0
         for key in keys:
-            i += 1
+            visualization_number += 1
+            # i += 1
             dataframe = pd.DataFrame(columns=["Chinese name", "English name", "Russian name",
                                               "Province or municipality directly under the Central Government",
                                               "grade", "Newly diagnosis", "Newly death", "Cumulative diagnosis",
@@ -260,34 +257,36 @@ def port_data_visualization(db_number, port):
             # print(dataframe)
             grade = dataframe['grade'].unique()[0]
             province = dataframe['Province or municipality directly under the Central Government'].unique()[0]
-            English_name = dataframe['English name'].unique()[0]
-            Chinese_name = dataframe['Chinese name'].unique()[0]
-            Russian_name = dataframe['Russian name'].unique()[0]
+            english_name = dataframe['English name'].unique()[0]
+            chinese_name = dataframe['Chinese name'].unique()[0]
+            russian_name = dataframe['Russian name'].unique()[0]
             if grade == 'City or district':
-                district_visualization(dataframe, str(Russian_name),
+                district_visualization(dataframe, str(russian_name),
                                        'visulation_result\\web spider data visualization\\province_' +
-                                       province + '\\' + grade + '_' + English_name + '_' +
-                                       Chinese_name + '_' + Russian_name)
+                                       province + '\\' + grade + '_' + english_name + '_' +
+                                       chinese_name + '_' + russian_name)
             else:
-                province_visualization(dataframe, str(Russian_name),
+                province_visualization(dataframe, str(russian_name),
                                        'visulation_result\\web spider data visualization\\province_' +
-                                       province + '\\' + grade + '_' + English_name + '_' +
-                                       Chinese_name + '_' + Russian_name)
-            # if grade == 'City or district':
-            #     grade_print = 'City'
-            #     district_visualization(dataframe, str(Russian_name),
-            #                            'visulation_result\\web spider data visualization\\province_' +
-            #                            province + '\\' + grade + '_' + English_name)
-            # else:
-            #     grade_print = 'province'
-            #     province_visualization(dataframe, str(Russian_name),
-            #                            'visulation_result\\web spider data visualization\\province_' +
-            #                            province + '\\' + grade + '_' + English_name)
+                                       province + '\\' + grade + '_' + english_name + '_' +
+                                       chinese_name + '_' + russian_name)
+                diagnosis_count = int((dataframe["Cumulative diagnosis"][-1:] -
+                                       dataframe["Cumulative diagnosis"][0]).values[0])
+                diagnosis_count_list.append(diagnosis_count)
+                province_chinese_list.append(chinese_name)
+                province_english_list.append(english_name)
+                province_russian_list.append(russian_name)
+
+    return visualization_number
 
 
 if __name__ == '__main__':
     time_start = time.time()
     print('start visualization')
+    diagnosis_count_list = []
+    province_chinese_list = []
+    province_english_list = []
+    province_russian_list = []
     visualization_number_6381 = port_data_visualization(16, 6381)
     visualization_number_6382 = port_data_visualization(16, 6382)
     visualization_number_6383 = port_data_visualization(2, 6383)
@@ -297,6 +296,12 @@ if __name__ == '__main__':
           )
     time_end = time.time()
     print(time_end - time_start)
+    diagnosis_dict = {'diagnosis_count_list': diagnosis_count_list, 'province_chinese_list': province_chinese_list,
+                      'province_english_list': province_english_list, 'province_russian_list': province_russian_list}
+    diagnosis_dataframe = pd.DataFrame(diagnosis_dict)
+    diagnosis_dataframe.to_excel('0.diagnosis_information.xlsx')
+
+
 
     # for db_number in range(16):
     #     r = rd = redis.Redis(host='127.0.0.1', port=6381, db=db_number, decode_responses=True)
