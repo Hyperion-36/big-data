@@ -50,6 +50,7 @@ if __name__ == '__main__':
         else:
             txt_file_name = nameList[i]
         f = open(txt_file_position + txt_file_name + ".txt", encoding="utf-8")
+        txt_file_name = txt_file_name[:-4]
         json_text = f.read()
         status_position = json_text.index("status") - 2
         crawl_conten_new = json_text[status_position:-3]
@@ -110,10 +111,11 @@ if __name__ == '__main__':
                 print('province ' + province["area"] + 'not in translation form,please add.From ' + province["area"])
         # 保存到excel中
         excel_file_position = "web spider data\\api excel\\"
-        excel_name = excel_file_position + txt_file_name + '_data_spider.xlsx'
+        excel_name = excel_file_position + txt_file_name + '_api_data_spider.xlsx'
         # excel_name = txt_file_name + '_data_spider.xlsx'
         wb.save(excel_name)
         print(excel_name + 'saved')
+
 
     # import pandas as pd
     # data = pd.read_excel('2022-11-23_data_spider.xlsx', sheet_name=0)
